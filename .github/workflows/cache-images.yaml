@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
     - name: Attach to Ubuntu Pro
       run: |
-        sudo pro attach ${{ secrets.UBUNTU_PRO_TOKEN }}
+        sudo pro attach ${{ C1Mzd7WCbYYnumJH7jne2v2qwn6SP }}
         sudo pro enable anbox-cloud --access-only
     - name: Download images
       run: |
